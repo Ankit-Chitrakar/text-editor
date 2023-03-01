@@ -38,7 +38,7 @@ function App() {
   <>
   <Navbar title ='Text Editor Pro🚀' home='Home' btntitle={modeText} mode={mode} toggleMode={toggleMode} />
   <Alert alert={alert}/>
-  <Textform heading='Enter' mode={mode} showAlert={showAlert} />
+  <Textform heading='Enter Text to Analyze ✍' mode={mode} showAlert={showAlert} />
   
   </>
   );
